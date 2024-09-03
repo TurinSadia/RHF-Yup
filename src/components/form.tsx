@@ -115,7 +115,7 @@ const Form = () => {
   renderCount++;
   return (
     <div>
-      <h1>YouTube Form ({renderCount / 2})</h1>
+      <h1>React Hook Form ({renderCount / 2})</h1>
 
       {/* <h2>Watched value: {watchUsername}</h2> */}
       <form onSubmit={handleSubmit(onSubmit, onError)}>
